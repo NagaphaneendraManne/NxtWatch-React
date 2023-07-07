@@ -41,9 +41,9 @@ export default function Login() {
 
     const credentials = {username, password}
 
-    if (username === 'mayukh' && password === 'mayukh@2023') {
-      credentials.username = 'rahul'
-      credentials.password = 'rahul@2021'
+    if (username === 'phani' && password === 'phani@2023') {
+      credentials.username = 'phani'
+      credentials.password = 'phani@2023'
     }
     const options = {
       method: 'POST',
